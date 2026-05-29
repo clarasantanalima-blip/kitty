@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Kitty - Plataforma P5.js</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎀 Hello Kitty 🎀</h1>
+            <p class="subtitle">Conheça a Personagem Mais Adorável do Mundo</p>
+        </header>
+
+        <div class="content-wrapper">
+            <div id="p5-container" class="sketch-container"></div>
+
+            <aside class="info-panel">
+                <section class="info-section">
+                    <h2>Sobre Hello Kitty</h2>
+                    <p>
+                        <strong>Nome Completo:</strong> Kitty White
+                    </p>
+                    <p>
+                        <strong>Criada em:</strong> 1974
+                    </p>
+                    <p>
+                        <strong>Designer:</strong> Yuko Shimizu
+                    </p>
+                    <p>
+                        <strong>Empresa:</strong> Sanrio (Japão)
+                    </p>
+                </section>
+
+                <section class="info-section">
+                    <h2>Características</h2>
+                    <ul>
+                        <li>😊 Personalidade doce e amigável</li>
+                        <li>🎀 Seu acessório favorito: um laço vermelho</li>
+                        <li>👨‍👩‍👧‍👦 Tem uma família: pais e uma irmã gêmea</li>
+                        <li>🐈 Frequentemente confundida com um gato, mas é uma menina humana</li>
+                        <li>🌍 Vive nos arredores de Londres, Inglaterra</li>
+                    </ul>
+                </section>
+
+                <section class="info-section">
+                    <h2>Curiosidades</h2>
+                    <ul>
+                        <li>🌟 Uma das personagens mais famosas do mundo</li>
+                        <li>💼 Ícone da cultura pop e merchandising</li>
+                        <li>🎨 Apesar da aparência felina, é confirmadamente uma menina humana</li>
+                        <li>🏴󠁧󠁢󠁥󠁮󠁧󠁿 Nascida em 1 de novembro</li>
+                        <li>❤️ Símbolo de amizade e positividade</li>
+                    </ul>
+                </section>
+
+                <section class="info-section interactive">
+                    <h2>Interação</h2>
+                    <p>Mova o mouse sobre a animação para interagir com Hello Kitty!</p>
+                    <button onclick="toggleAnimation()">🎬 Mudar Animação</button>
+                </section>
+            </aside>
+        </div>
+
+        <footer>
+            <p>🎨 Criado com p5.js | © 1974-2026 Sanrio Co., Ltd.</p>
+        </footer>
+    </div>
+
+    <script src="sketch.js"></script>
+</body>
+</html>
